@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ONG Exemplo — Início</title>
+  <meta name="description" content="ONG Exemplo - projetos sociais, voluntariado e doações." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <img src="images/logo.png" alt="Logo ONG Exemplo" class="logo" />
+      <nav aria-label="Navegação principal">
+        <ul class="main-nav">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" aria-labelledby="hero-title">
+      <h1 id="hero-title">ONG Exemplo — Transformando Vidas</h1>
+      <p>Atuamos com projetos sociais nas áreas de educação, saúde e assistência. Venha conhecer e contribuir!</p>
+      <img src="images/organizacao.jpg" width="500" height="400" alt="Equipe de voluntários" class="hero-img" />
+    </section>
+
+    <section class="about container" aria-labelledby="about-title">
+      <h2 id="about-title">Sobre a organização</h2>
+      <article>
+        <p>Nossa missão é promover inclusão social por meio de projetos comunitários, apoio educacional e programas de capacitação.</p>
+      </article>
+      <aside>
+        <h3>Contato</h3>
+        <address>
+          Rua Exemplo, 123 — Bairro — São Paulo / SP<br />
+          Telefone: <a href="tel:+5511999999999">(11) 99999-9999</a><br />
+          E-mail: <a href="mailto:contato@ongexemplo.org">contato@ongexemplo.org</a>
+        </address>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> ONG Exemplo — Todos os direitos reservados.</p>
+    <p><a href="projetos.html">Saiba como ajudar</a></p>
+  </footer>
+
+  <script>
+    // atualiza ano no rodapé
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

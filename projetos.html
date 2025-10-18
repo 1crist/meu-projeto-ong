@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ONG Exemplo — Projetos Sociais</title>
+  <meta name="description" content="Projetos e oportunidades de voluntariado - ONG Exemplo" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html"><img src="images/logo.png" alt="Logo ONG Exemplo" class="logo" /></a>
+      <nav aria-label="Navegação principal">
+        <ul class="main-nav">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html" aria-current="page">Projetos</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Projetos Sociais</h1>
+
+    <section aria-labelledby="voluntariado-title">
+      <h2 id="voluntariado-title">Voluntariado</h2>
+      <p>Participe como voluntário: apoio pedagógico, oficinas, distribuição de alimentos e atividades com crianças e idosos.</p>
+      <img src="images/voluntarios.jpg" width="500" height="400" alt="Voluntários em ação" />
+      <p>Para se candidatar: preencha o <a href="cadastro.html">formulário de cadastro</a> e selecione "Voluntário".</p>
+    </section>
+
+    <section aria-labelledby="doacoes-title">
+      <h2 id="doacoes-title">Como doar</h2>
+      <ul>
+        <li>Doações financeiras (PIX): chave: <strong>00000000-0000</strong> (exemplo)</li>
+        <li>Doações em espécie: alimentos não perecíveis, roupas e material escolar. Entrega na nossa sede (Rua Exemplo, 123).</li>
+        <li>Doações de tempo: voluntariado - preencha o cadastro.</li>
+      </ul>
+      <p>Ao doar, envie comprovante para <a href="mailto:doacoes@ongexemplo.org">doacoes@ongexemplo.org</a> com seu nome e CPF ou CNPJ.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year2"></span> ONG Exemplo</p>
+  </footer>
+
+  <script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
+</body>
+</html>
